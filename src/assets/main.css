@@ -1,0 +1,91 @@
+@import './base.css';
+
+html {
+    overflow-x: hidden;
+}
+
+.search {
+    width: 50rem !important;
+}
+
+ion-icon {
+    color: white;
+}
+
+.text-muted ion-icon {
+    color: #6c757d;
+}
+
+.btn.btn-outline-light:hover {
+    color: #363c42 !important;
+}
+
+.banner-yeah {
+    margin: 0 !important;
+    width: 1080px !important;
+    background-image:  url("./img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.futer-heder {
+    background-color: #363c42 !important;
+}
+
+.tulisan {
+    color: whitesmoke !important;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.detailpage {
+    padding: 5rem 7rem;
+    background-color: #212529;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.detailpage img, .detailpage svg {
+    width: 50rem;
+    height: 50rem;
+}
+
+.detailpage .card {
+    margin-left: auto;
+    margin-right: 0;
+    width: 25rem;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid2 ion-icon {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.desc {
+    height: 31rem;
+}
+
+.beli {
+    height: 3rem;
+    line-height: 1.25 !important;
+    font-size: 2rem !important;
+}
+
+.atas:hover {
+    background-color: whitesmoke !important;
+}
+
+.atas {
+    margin-bottom: 1rem;
+}
+
+body {
+    background-color: #212529 !important;
+}
